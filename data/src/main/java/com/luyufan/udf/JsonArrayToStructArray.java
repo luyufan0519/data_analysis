@@ -35,7 +35,7 @@ public class JsonArrayToStructArray extends GenericUDF {
                 throw new UDFArgumentException("json_array_to_struct_array的第" + (i + 1) + "个参数应为string类型");
             }
         }
-
+        System.out.println("git test");
         //创建默认列名的集合
         List<String> fieldNames = new ArrayList<>();
         //创建输出类型的集合
